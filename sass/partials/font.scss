@@ -1,0 +1,24 @@
+$font-25: 1.25rem;
+$font-50: 1.50rem;
+$font-75: 1.75rem;
+$font-100: 2rem;
+$font-bold: bold;
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: $text-color;
+}
+
+@mixin title-big {
+    font-size: $font-100;
+    font-weight: $font-bold;
+}
+
+h1 {
+    @include title-big();
+}
+
+h2 {
+    font-size: $font-75;
+    font-weight: $font-bold;
+}

@@ -1,0 +1,13 @@
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+nav img {
+  width: 15%;
+}
+nav ul {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}/*# sourceMappingURL=header.css.map */

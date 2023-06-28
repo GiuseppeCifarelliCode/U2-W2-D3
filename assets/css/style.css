@@ -1,0 +1,100 @@
+body {
+  margin: 0;
+}
+
+h1,
+h2,
+h3 {
+  margin-top: 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #f4f4f4;
+}
+
+h1 {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 1.75rem;
+  font-weight: bold;
+}
+
+.btn1 {
+  background-color: #0e6cff;
+}
+.btn1:hover {
+  background-color: #0055da;
+}
+
+.btn2 {
+  background-color: #ff8700;
+}
+.btn2:hover {
+  background-color: #cc6c00;
+}
+
+.btn3 {
+  background-color: #4caf50;
+}
+.btn3:hover {
+  background-color: #3d8b40;
+}
+
+.buttons button {
+  border-radius: 15px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+nav img {
+  width: 15%;
+}
+nav ul {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+nav a {
+  color: #f4f4f4;
+}
+
+.hero {
+  background-color: #640fc5;
+}
+
+.title {
+  display: flex;
+  align-items: center;
+}
+.title img {
+  width: auto;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-around;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: space-around;
+}/*# sourceMappingURL=style.css.map */

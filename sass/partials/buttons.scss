@@ -1,0 +1,26 @@
+.btn1 {
+    background-color: $btn1-blu;
+    &:hover {
+        background-color: darken($color: $btn1-blu, $amount: 10);
+    }
+}
+
+.btn2 {
+    background-color: $btn2-orange;
+    &:hover {
+        background-color: darken($color: $btn2-orange, $amount: 10);
+    }
+}
+
+.btn3 {
+    background-color: $btn3-green;
+    &:hover {
+        background-color: darken($color: $btn3-green, $amount: 10);
+    }
+}
+
+.buttons {
+    button {
+        border-radius: 15px;
+    }
+}

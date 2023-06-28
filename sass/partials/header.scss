@@ -1,0 +1,38 @@
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    img {
+        width: 15%;
+    }
+
+    ul {
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    a {
+        color: $text-color;
+    }
+}
+
+.hero {
+    background-color: $bg-hero-purple;
+}
+
+.title {
+    display: flex;
+    align-items: center;
+
+    img {
+        width: auto;
+    }
+}
+.buttons {
+    display: flex;
+    justify-content: space-around;
+}
+
+
